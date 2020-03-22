@@ -13,6 +13,7 @@ Uygulama#|Başlık
 ---:|---
 1|[Python'a giriş](FIZ220_EST_UygulamaNotlari_01_Pythona_Giris.html){:target="ders"}
 2|[Listeler ve Sözlükler (+ demetler, kümeler)](FIZ220_EST_UygulamaNotlari_02_Listeler_Sozlukler.html){:target="ders"}
+3|[Matrisler (NumPy Matrix (numpy.matrix) Nesneleri)](FIZ220_EST_UygulamaNotlari_03_Matrisler.html){:          target="ders"}
 
 Pek çok şeyin yanısıra, kaynak gösterilmeden kullanılması [mevcut lisans anlaşmasına (GPL)](http://ozgurlisanslar.org.tr/gpl/gpl-v3/) aykırıdır.
 
