@@ -15,6 +15,11 @@ Uygulama#|Başlık
 2|[Listeler ve Sözlükler (+ demetler, kümeler)](FIZ220_EST_UygulamaNotlari_02_Listeler_Sozlukler.html){:target="ders"}
 3|[Matrisler (NumPy Matrix (numpy.matrix) Nesneleri)](FIZ220_EST_UygulamaNotlari_03_Matrisler.html){:          target="ders"}
 4|[Matrisler I (NumPy Dizi (numpy.ndarray) Nesneleri)](FIZ220_EST_UygulamaNotlari_04_NumPy_Dizileri_I.html){:target="ders"}
+5|[Matrisler II (NumPy Dizi (numpy.ndarray) Nesneleri)](FIZ220_EST_UygulamaNotlari_05_NumPy_Dizileri_II.html){:target="ders"}
+
+Ödevler:
+* [1. Ödev: Numpy Dizileri I](FIZ220_EST_Odev_01_NumPy_Dizileri.html)
+* [2. Ödev: Numpy Dizileri II](FIZ220_EST_Odev_02_NumPy_Dizileri.html)
 
 Pek çok şeyin yanısıra, kaynak gösterilmeden kullanılması [mevcut lisans anlaşmasına (GPL)](http://ozgurlisanslar.org.tr/gpl/gpl-v3/) aykırıdır.
 
