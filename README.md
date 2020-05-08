@@ -17,7 +17,7 @@ Uygulama#|Başlık
 4|[Matrisler I (NumPy Dizi (numpy.ndarray) Nesneleri)](FIZ220_EST_UygulamaNotlari_04_NumPy_Dizileri_I.html){:target="ders"}
 5|[Matrisler II (NumPy Dizi (numpy.ndarray) Nesneleri)](FIZ220_EST_UygulamaNotlari_05_NumPy_Dizileri_II.html){:target="ders"}
 6|[Matris Uygulamaları](FIZ220_EST_UygulamaNotlari_06_Matris_Uygulamalari.html){:target="ders"}
-7|[Döngüler ve Kararlar](FIZ220_EST_UygulamaNotlari_07_Donguler_ve_Kararlar.ipynb){:target="ders"}
+7|[Döngüler ve Kararlar](FIZ220_EST_UygulamaNotlari_07_Donguler_ve_Kararlar.html){:target="ders"}
 
 Ödevler:
 * [1. Ödev: Numpy Dizileri I](FIZ220_EST_Odev_01_NumPy_Dizileri.html)
