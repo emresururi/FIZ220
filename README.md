@@ -22,6 +22,7 @@ Uygulama#|Başlık
 Ödevler:
 * [1. Ödev: Numpy Dizileri I](FIZ220_EST_Odev_01_NumPy_Dizileri.html)
 * [2. Ödev: Numpy Dizileri II](FIZ220_EST_Odev_02_NumPy_Dizileri.html)
+* [3. Ödev: Döngüler ve Kararlar](FIZ220_EST_Odev_03_Donguler_ve_Kararlar.html)
 
 Pek çok şeyin yanısıra, kaynak gösterilmeden kullanılması [mevcut lisans anlaşmasına (GPL)](http://ozgurlisanslar.org.tr/gpl/gpl-v3/) aykırıdır.
 
