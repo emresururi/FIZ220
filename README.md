@@ -30,6 +30,6 @@ Uygulama#|Başlık
 * [4. Ödev: Lineer Cebir](FIZ220_EST_Odev_04_LineerCebir.html)
 * [5. Ödev: Lineer Cebir Uygulamaları](FIZ220_EST_Odev_05_LineerCebirUygulamalari.html) ([Çözümü](FIZ220_EST_Odev_05_LineerCebirUygulamalari_Cozumler.html))
 
-Kaynak gösterilmeden kullanılması, pek çok başka şeyin yanısıra, [mevcut lisans anlaşmasına (GPL)](http://ozgurlisanslar.org.tr/gpl/gpl-v3/) aykırıdır.
+Kaynak gösterilmeden kullanılması, pek çok şeyin yanısıra, [mevcut lisans anlaşmasına (GPL)](http://ozgurlisanslar.org.tr/gpl/gpl-v3/) aykırıdır.
 
 Emre S. Taşcı <emre.tasci@hacettepe.edu.tr>
