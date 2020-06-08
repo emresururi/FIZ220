@@ -28,7 +28,7 @@ Uygulama#|Başlık
 * [2. Ödev: Numpy Dizileri II](FIZ220_EST_Odev_02_NumPy_Dizileri.html)
 * [3. Ödev: Döngüler ve Kararlar](FIZ220_EST_Odev_03_Donguler_ve_Kararlar.html)
 * [4. Ödev: Lineer Cebir](FIZ220_EST_Odev_04_LineerCebir.html)
-* [5. Ödev: Lineer Cebir Uygulamaları](FIZ220_EST_Odev_05_LineerCebirUygulamalari.html) | [Çözümü](FIZ220_EST_Odev_05_LineerCebirUygulamalari_Cozumler.html)
+* [5. Ödev: Lineer Cebir Uygulamaları](FIZ220_EST_Odev_05_LineerCebirUygulamalari.html) ([Çözümü](FIZ220_EST_Odev_05_LineerCebirUygulamalari_Cozumler.html))
 
 Kaynak gösterilmeden kullanılması, pek çok başka şeyin yanısıra, [mevcut lisans anlaşmasına (GPL)](http://ozgurlisanslar.org.tr/gpl/gpl-v3/) aykırıdır.
 
