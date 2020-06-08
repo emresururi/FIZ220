@@ -18,12 +18,18 @@ Uygulama#|Başlık
 5|[Matrisler II (NumPy Dizi (numpy.ndarray) Nesneleri)](FIZ220_EST_UygulamaNotlari_05_NumPy_Dizileri_II.html){:target="ders"}
 6|[Matris Uygulamaları](FIZ220_EST_UygulamaNotlari_06_Matris_Uygulamalari.html){:target="ders"}
 7|[Döngüler ve Kararlar](FIZ220_EST_UygulamaNotlari_07_Donguler_ve_Kararlar.html){:target="ders"}
+8|[Lineer Cebir](FIZ220_EST_UygulamaNotlari_08_LineerCebir.html){:target="ders"}
+8.5|[Lineer Cebir Uygulamaları (I)](FIZ220_EST_UygulamaNotlari_08_LineerCebir_Uygulamalari_1.html){:target="ders"}
+8.64159..|[Lineer Cebir Uygulamaları (II)](FIZ220_EST_UygulamaNotlari_08_LineerCebir_Uygulamalari_2.html){:target="ders"}
+
 
 Ödevler:
 * [1. Ödev: Numpy Dizileri I](FIZ220_EST_Odev_01_NumPy_Dizileri.html)
 * [2. Ödev: Numpy Dizileri II](FIZ220_EST_Odev_02_NumPy_Dizileri.html)
 * [3. Ödev: Döngüler ve Kararlar](FIZ220_EST_Odev_03_Donguler_ve_Kararlar.html)
+* [4. Ödev: Lineer Cebir](FIZ220_EST_Odev_04_LineerCebir.html)
+* [5. Ödev: Lineer Cebir Uygulamaları](FIZ220_EST_Odev_05_LineerCebirUygulamalari.html) | [Çözümü](FIZ220_EST_Odev_05_LineerCebirUygulamalari_Cozumler.html)
 
-Pek çok şeyin yanısıra, kaynak gösterilmeden kullanılması [mevcut lisans anlaşmasına (GPL)](http://ozgurlisanslar.org.tr/gpl/gpl-v3/) aykırıdır.
+Kaynak gösterilmeden kullanılması, pek çok başka şeyin yanısıra, [mevcut lisans anlaşmasına (GPL)](http://ozgurlisanslar.org.tr/gpl/gpl-v3/) aykırıdır.
 
 Emre S. Taşcı <emre.tasci@hacettepe.edu.tr>
