@@ -21,6 +21,7 @@ Uygulama#|Başlık
 8|[Lineer Cebir](FIZ220_EST_UygulamaNotlari_08_LineerCebir.html){:target="ders"}
 8.5|[Lineer Cebir Uygulamaları (I)](FIZ220_EST_UygulamaNotlari_08_LineerCebir_Uygulamalari_1.html){:target="ders"}
 8.64159..|[Lineer Cebir Uygulamaları (II)](FIZ220_EST_UygulamaNotlari_08_LineerCebir_Uygulamalari_2.html){:target="ders"}
+9|[Fonksiyonlar, Türev ve İntegral](FIZ220_EST_UygulamaNotlari_09_FonksiyonTurevIntegral.html){:target="ders"}
 
 
 Ödevler:
