@@ -22,6 +22,7 @@ Uygulama#|Başlık
 8.5|[Lineer Cebir Uygulamaları (I)](FIZ220_EST_UygulamaNotlari_08_LineerCebir_Uygulamalari_1.html){:target="ders"}
 8.64159..|[Lineer Cebir Uygulamaları (II)](FIZ220_EST_UygulamaNotlari_08_LineerCebir_Uygulamalari_2.html){:target="ders"}
 9|[Fonksiyonlar, Türev ve İntegral](FIZ220_EST_UygulamaNotlari_09_FonksiyonTurevIntegral.html){:target="ders"}
+10|[Yüklü parçacıkların etkileşim simülasyonu](FIZ220_EST_UygulamaNotlari_10_YukluParcacikSimulasyonu.html){:target="ders"}
 
 
 Ödevler:
@@ -30,6 +31,14 @@ Uygulama#|Başlık
 * [3. Ödev: Döngüler ve Kararlar](FIZ220_EST_Odev_03_Donguler_ve_Kararlar.html)
 * [4. Ödev: Lineer Cebir](FIZ220_EST_Odev_04_LineerCebir.html)
 * [5. Ödev: Lineer Cebir Uygulamaları](FIZ220_EST_Odev_05_LineerCebirUygulamalari.html) ([Çözümü](FIZ220_EST_Odev_05_LineerCebirUygulamalari_Cozumler.html))
+
+
+Bazı kodlar: (Grafiksel işlerden ötürü Jupyter'da değil de / örneğin Spyder'da çalıştırmak üzere)
+* Lineer Cebir Uygulaması: [Yaylara bağlı cisimler](kodlar/08_springsMasses.py)
+* Yüklü Parçacık Simülasyonu: [2 yüklü parçacık](kodlar/10_2_tane_yuklu_parcacik.py)
+* Yüklü Parçacık Simülasyonu: [3+ yüklü parçacık](kodlar/10_3p_tane_yuklu_parcacik.py)
+* Yüklü Parçacık Simülasyonu: [Çember içinde yüklü parçacıklar](kodlar/10_cemberde_yuklu_parcaciklar.py)
+
 
 Kaynak gösterilmeden kullanılması, pek çok şeyin yanısıra, [mevcut lisans anlaşmasına (GPL)](http://ozgurlisanslar.org.tr/gpl/gpl-v3/) aykırıdır.
 
