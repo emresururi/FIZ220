@@ -434,7 +434,7 @@ plt.show()
 # şeklinde yazdık. En alt satırın orta sütunundaki "220" değeri nereden geldi? Dersimizin koduyla aynı oluşu tesadüf mü?
 
 # ## 3. Soru Cevap
-# Elimizdeki 3. denklem, $\ddot{y}'$nün 0 olduğu ama diğer iki değişkenimiz $(\ddot{x}'\,\&\,F_N)$ 0 olmak zorunda değil, bu yüzden en alt satırı $(0\,0\,0)$ şeklinde yazamayız (yazarız da, "0 ile çarpılan her şey sıfır olur" şeklinde zaten bariz bir şeyi söylemiş oluruz (bkz. _"malumun ilam etmek"_ 8P) -- bu vesileyle, bu tür apaçık, bariz çözümlere/gerçeklere İngilizce'de "trivial" denmekte). Sadece $\ddot{y}'$nün 0 olduğunu, onu hangi sayıyla çarparsak çarpalım sonucun 0 olacağını yazarak belirtebiliriz; bu sayı dersimizin kodu da olabilir, doğum yılımız da, tamamıyla bize kalmış.
+# Elimizdeki 3. denklem, $\ddot{y}'$nün 0 olduğu ama diğer iki değişkenimiz $(\ddot{x}'\,\&\,F_N)$ 0 olmak zorunda değil, bu yüzden en alt satırı $(0\,0\,0)$ şeklinde yazamayız (yazarız da, "0 ile çarpılan her şey sıfır olur" şeklinde zaten bariz bir şeyi söylemiş oluruz (bkz. _"malumun ilamı"_ 8P) -- bu vesileyle, bu tür apaçık, bariz çözümlere/gerçeklere İngilizce'de "trivial" denmekte). Sadece $\ddot{y}'$nün 0 olduğunu, onu hangi sayıyla çarparsak çarpalım sonucun 0 olacağını yazarak belirtebiliriz; bu sayı dersimizin kodu da olabilir, doğum yılımız da, tamamıyla bize kalmış.
 
 #  ## 4. Soru: [Soruları severim ama, cevaplarım ama, sağlama yapmasak](https://www.youtube.com/watch?v=7cs_SXfxTmY)?
 #  

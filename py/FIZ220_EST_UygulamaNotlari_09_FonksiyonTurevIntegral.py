@@ -274,7 +274,7 @@ print(hayaller-gercek)
 # 
 # Aralığın sağ tarafındaki değeri yükseklik olarak kullansak gene çok bir şey değişmeyecek:
 
-# In[11]:
+# In[2]:
 
 
 import numpy as np
@@ -303,7 +303,7 @@ plt.plot(x,y,"or")
 for i in range(N-1):
     dik4sag = Rectangle([x[i],0],delta_x,y[i+1],hatch="-",linewidth=1.5,edgecolor="k")
     ax.add_patch(dik4sag)
-plt.title("Soldan dikdörtgen yaklaşımı, {:} nokta ile..".format(N))
+plt.title("Sağdan dikdörtgen yaklaşımı, {:} nokta ile..".format(N))
 #plt.xlim(0.5,2.5)
 plt.ylim(0,1.2)
 plt.show()
@@ -311,7 +311,7 @@ plt.show()
 
 # Bu sefer de, 1. aralıkta gerçek değerden fazla, 2. aralıkta gerçek değerin altında bir değer hesaplamış olduk. Şansa pek güven olmayacağından, iki yaklaşım arasında bir yol tutalım: yani bir aralık için, aralığın solundaki değerden sağındaki değere bir doğru çizip, böylelikle yamuk tanımlayalım (bu kadar düzgün ve net tanımlı bir çokgene _yamuk_ adı verilir mi hiç?!):
 
-# In[12]:
+# In[3]:
 
 
 import numpy as np
@@ -340,7 +340,7 @@ plt.plot(x,y,"or")
 for i in range(N-1):
     poli = Polygon([[x[i],0],[x[i],y[i]],[x[i+1],y[i+1]],[x[i+1],0]],hatch="-",linewidth=1.5,edgecolor="k")
     ax.add_patch(poli)
-plt.title("Soldan dikdörtgen yaklaşımı, {:} nokta ile..".format(N))
+plt.title("Yamuk yaklaşımı, {:} nokta ile..".format(N))
 #plt.xlim(0.5,2.5)
 plt.ylim(0,1.2)
 plt.show()

@@ -31,6 +31,7 @@ Uygulama#|Başlık
 * [3. Ödev: Döngüler ve Kararlar](FIZ220_EST_Odev_03_Donguler_ve_Kararlar.html)
 * [4. Ödev: Lineer Cebir](FIZ220_EST_Odev_04_LineerCebir.html)
 * [5. Ödev: Lineer Cebir Uygulamaları](FIZ220_EST_Odev_05_LineerCebirUygulamalari.html) ([Çözümü](FIZ220_EST_Odev_05_LineerCebirUygulamalari_Cozumler.html))
+* [6. Ödev: Fonksiyonlar, Türev ve İntegral / Çözümü](FIZ220_EST_Odev_06_FonksiyonTurevIntegral_Cozumler.html)
 
 
 Bazı kodlar: (Grafiksel işlerden ötürü Jupyter'da değil de / örneğin Spyder'da çalıştırmak üzere)

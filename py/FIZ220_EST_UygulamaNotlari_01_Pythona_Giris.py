@@ -54,16 +54,6 @@
 # * &lt;Enter> : Seçili hücreyi değiştirme moduna alır.
 # * &lt;CTRL>+&lt;Enter> : Seçili olan hücreyi _çalıştırır_ (kod hücresi ise yazılı kodu çalıştırıp, çıktısını döndürür; metin hücresi ise markdown ve LateX sembollerini işler)
 # * b (below/aşağı) ve a (above/yukarı) : Seçili olan hücrenin aşağısına (veya yukarısına) yeni bir hücre ekler.
-
-# Yukarıdaki işlemin olduğu kısım, şu anda bu satırların olduğu kısım gibi, çalışmamızın bir parçası olup, "hücre" (_cell_) adıyla anılırlar. Bir hücre şu üç çeşitten biri olabilir:
-# 1. **Kod Hücresi:** Bu hücre -doğal olarak- en temel hücre tipimiz olacaktır. Buraya yazılan kodlar çalıştırılıp, çıktıları da aynı hücrenin altında monte şekilde gösterilecektir. (Kısayol tuşu: **Y**)
-# 2. **Metin Hücresi:** Metin hücreleri de şu anda okumakta olduğunuz hücreler gibi, bilgi paylaşımı amacıyla oluşturulan hücrelerdir. Bu kısımları programlarda açıklamaları yazdığımız yorum satırlarının gelişmiş versiyonları olarak düşünebiliriz. **Kalın**, _italik_ vs. şeklindeki basit biçimlendirmelere de izin verirler (bu biçimlendirmeler için kullanılan notasyona **MarkDown** notasyonu adı verilmekte olup, detaylı açıklamalar ve örnekler için [Adam Pritchard'ın kapsamlı sayfasına bakabilirsiniz](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Metin hücreleri, MathJax motoru sayesinde, karmaşık formülleri $\LaTeX$ yoluyla yazmanıza da izin vermektedir, örneğin: $\oint E \cdot \text{d}A = \frac{\rho}{\epsilon_0}$. (Kısayol tuşu: **M**)
-# 3. **Çiğ Hücre:** Çiğ hücreler bir kodu (veya _şiiri_ ;) şeklini bozmadan, normalde çeşitli anlamlara gelen sembolleri olduğu gibi girmenize yarar. Şimdilik pek kullanacağımız bir hücre tipi değil. (Kısayol tuşu: **R**)
-# 
-# Hücrelerle ilgili çok kullanacağınız birkaç diğer kısayol tuşu ise şunlardır:
-# * &lt;Enter> : Seçili hücreyi değiştirme moduna alır.
-# * &lt;CTRL>+&lt;Enter> : Seçili olan hücreyi _çalıştırır_ (kod hücresi ise yazılı kodu çalıştırıp, çıktısını döndürür; metin hücresi ise markdown ve LateX sembollerini işler)
-# * b (below/aşağı) ve a (above/yukarı) : Seçili olan hücrenin aşağısına (veya yukarısına) yeni bir hücre ekler.
 # * &lt;CTRL>+&lt;Shift>+&lt;s> (split) : Seçili olan hücreyi o anda imleçin olduğu satırdan iki ayrı hücreye böler.
 # * h (help) : Kısayol tuşlarının karşılıklarını gösterir.
 # 
