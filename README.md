@@ -28,7 +28,7 @@ Uygulama#|Başlık
 Ödevler:
 * [1. Ödev: Numpy Dizileri I](FIZ220_EST_Odev_01_NumPy_Dizileri.html)
 * [2. Ödev: Numpy Dizileri II](FIZ220_EST_Odev_02_NumPy_Dizileri.html)
-* [3. Ödev: Döngüler ve Kararlar](FIZ220_EST_Odev_03_Donguler_ve_Kararlar.html) ([Çözümü](FIZ220_EST_Odev_03_Donguler_ve_Kararlar_Cozumler.html)
+* [3. Ödev: Döngüler ve Kararlar](FIZ220_EST_Odev_03_Donguler_ve_Kararlar.html) ([Çözümü](FIZ220_EST_Odev_03_Donguler_ve_Kararlar_Cozumler.html))
 * [4. Ödev: Lineer Cebir](FIZ220_EST_Odev_04_LineerCebir.html) ([Çözümü](FIZ220_EST_Odev_04_LineerCebir_Cozumler.html))
 * [5. Ödev: Lineer Cebir Uygulamaları](FIZ220_EST_Odev_05_LineerCebirUygulamalari.html) ([Çözümü](FIZ220_EST_Odev_05_LineerCebirUygulamalari_Cozumler.html))
 * [6. Ödev: Fonksiyonlar, Türev ve İntegral / Çözümü](FIZ220_EST_Odev_06_FonksiyonTurevIntegral_Cozumler.html)

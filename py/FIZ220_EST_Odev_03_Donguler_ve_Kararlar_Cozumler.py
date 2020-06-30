@@ -132,14 +132,8 @@ print("-"*45)
 
 # Parçacıklar üzerinden döngüyü alırken, nasıl saydığımıza dikkat edin: $i\rightarrow j$ etkileşimi ile $j\rightarrow i$ etkileşimi zıt yönlerde fakat aynı büyüklükte olduğundan, ayrı ayrı bir $i\rightarrow j$, bir de $j\rightarrow i$ etkileşimi hesaplamamak için $i$'leri 0,1,2,3'e kadar/dahil sayarken, $j$'leri de $i$'lerin başlangıcından 4'e kadar/dahil sayıyoruz. Böylelikle hesap sayısını en aza indirgemiş oluyoruz. İleride, bilimsel makalelerde şöyle toplamlar göreceksiniz:
 # 
-# $$\frac{1}{2}\sum_{i\ne j}{F_{ij}}$$
+# $$\frac{1}{2}\sum_{i\ne j}{E_{ij}}$$
 # işte o başındaki $\frac{1}{2}$'nin hikayesi bu çifte sayım mevzuu. Anlaşılsın diye o şekilde yazılır, koda uyarlanırken de:
 # 
-# $$\sum_{i=0}^{N-1}\sum_{j=i}^{N}{F_{ij}}$$
+# $$\sum_{i=0}^{N-1}\sum_{j=i}^{N}{E_{ij}}$$
 # olarak uyarlanır. ;)
-
-# In[ ]:
-
-
-
-
