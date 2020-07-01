@@ -13129,7 +13129,7 @@ $$
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[45]:</div>
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
@@ -13157,6 +13157,40 @@ $$
  [ 0.2 -0.6]]
 </pre>
 </div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">A_inv</span><span class="p">,</span><span class="n">A</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[3]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>array([[ 1.00000000e+00, -5.55111512e-17],
+       [ 0.00000000e+00,  1.00000000e+00]])</pre>
+</div>
+
 </div>
 
 </div>
@@ -13257,7 +13291,7 @@ y=  2.0
 <h2 id="&#127932;-O-yana-da-d&#246;nder,-sar-beni...-(ya-da:-d&#246;n&#252;&#351;-matrisi)-&#9835;"><em>&#127932; O yana da d&#246;nder, sar beni... (ya da: d&#246;n&#252;&#351; matrisi) &#9835;</em><a class="anchor-link" href="#&#127932;-O-yana-da-d&#246;nder,-sar-beni...-(ya-da:-d&#246;n&#252;&#351;-matrisi)-&#9835;">&#182;</a></h2><p>Elimizde iki boyutlu bir uzay, bu uzayda da bir $a$ noktamız var (diyelim $a(1,0)$ noktası). Bu noktayı saat yönünün tersine, 90 derece çevirmek istiyoruz.</p>
 <p>Kendimize en yakın fizik ya da matematik kitabını alıp açtığımızda <em>(ama en güzeli lineer cebir kitabını açmak olurdu bu arada ;)</em>, dönüş matrisi diye bir yaratıkla karşılaşıyoruz, şöyle bir şey:</p>
 $$R_{\theta}=\begin{bmatrix}\cos{\theta}&amp;-\sin{\theta}\\\sin{\theta}&amp;\cos{\theta}\end{bmatrix}$$<p>Bu <strike>yaratık</strike> matris $(2\times2)$'lik bir matris olduğundan, üzerine etkiyeceği vektör ancak 2 boyutlu bir vektör olabilir (neden?). Şansa bakın ki, elimizde tam da iki boyutlu bir vektör var (noktamızın ta kendisi).</p>
-<p>Noktamızı 90 derece çevirmek istersek, $\theta$ yerine 90 derece (ya da <em>doğru</em> birimlerle $\pi$ radyan) yazarız, dönüş matrisimiz de şu hali alır:</p>
+<p>Noktamızı 90 derece çevirmek istersek, $\theta$ yerine 90 derece (ya da <em>doğru</em> birimlerle $\pi /2$ radyan) yazarız, dönüş matrisimiz de şu hali alır:</p>
 $$R_{\pi/2}=\begin{bmatrix}\cos{\frac{\pi}{2}}&amp;-\sin{\frac{\pi}{2}}\\\sin{\frac{\pi}{2}}&amp;\cos{\frac{\pi}{2}}\end{bmatrix}=\begin{bmatrix}0&amp;-1\\1 &amp; 0\end{bmatrix}$$<p>Bu halini $a(1,0)$ noktamız üzerine etki ettirelim bakalım ne çıkacak?</p>
 $$b=R_{\pi/2}\cdot a=\begin{bmatrix}0&amp;-1\\1 &amp; 0\end{bmatrix}\cdot\left(\begin{matrix}1\\0\end{matrix}\right)$$
 </div>
@@ -13724,6 +13758,21 @@ $$ R_{3\pi/2} = R_{-\pi/2} = {\left(R_{\pi/2}\right)}^3 = \left(\begin{bmatrix} 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#A,B,C</span>
+<span class="c1">#A.B.C</span>
+<span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">A</span><span class="p">,</span><span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">B</span><span class="p">,</span><span class="n">C</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
 <div class="prompt input_prompt">In&nbsp;[56]:</div>
 <div class="inner_cell">
     <div class="input_area">
@@ -13899,6 +13948,91 @@ Nb 12 1b 0.5 0.5 0.925</code></p>
 
 </div>
 </div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">atomcinsi</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">empty</span><span class="p">([</span><span class="mi">24</span><span class="p">],</span><span class="n">dtype</span><span class="o">=</span><span class="s1">&#39;U2&#39;</span><span class="p">)</span>
+<span class="n">atomcinsi</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">12</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Te&quot;</span>
+<span class="n">atomcinsi</span><span class="p">[</span><span class="mi">12</span><span class="p">:]</span> <span class="o">=</span> <span class="s2">&quot;Nb&quot;</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">atomcinsi</span><span class="p">)</span>
+<span class="n">koordinatlar</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">matrix</span><span class="p">(</span><span class="s2">&quot;[0.2222,0.0975,-0.0016;</span><span class="se">\</span>
+<span class="s2">0.0906,0.2433,0.1683;</span><span class="se">\</span>
+<span class="s2">0.2471,0.0855,0.3293;</span><span class="se">\</span>
+<span class="s2">0.0979,0.2194,0.5000;</span><span class="se">\</span>
+<span class="s2">0.2433,0.0913,0.6680;</span><span class="se">\</span>
+<span class="s2">0.0864,0.2450,0.8330;</span><span class="se">\</span>
+<span class="s2">0.7442,0.5849,-0.0016;</span><span class="se">\</span>
+<span class="s2">0.5944,0.7346,0.1627;</span><span class="se">\</span>
+<span class="s2">0.7199,0.5964,0.3307;</span><span class="se">\</span>
+<span class="s2">0.5840,0.7464,0.4999;</span><span class="se">\</span>
+<span class="s2">0.7339,0.5940,0.6623;</span><span class="se">\</span>
+<span class="s2">0.5955,0.7240,0.8326;</span><span class="se">\</span>
+<span class="s2">0,0,0.0969;</span><span class="se">\</span>
+<span class="s2">0,0,0.2517;</span><span class="se">\</span>
+<span class="s2">0,0,0.4014;</span><span class="se">\</span>
+<span class="s2">0,0,0.5929;</span><span class="se">\</span>
+<span class="s2">0,0,0.7512;</span><span class="se">\</span>
+<span class="s2">0,0,0.9067;</span><span class="se">\</span>
+<span class="s2">0.5,0.5,0.0774;</span><span class="se">\</span>
+<span class="s2">0.5,0.5,0.2376;</span><span class="se">\</span>
+<span class="s2">0.5,0.5,0.4286;</span><span class="se">\</span>
+<span class="s2">0.5,0.5,0.5778;</span><span class="se">\</span>
+<span class="s2">0.5,0.5,0.735;</span><span class="se">\</span>
+<span class="s2">0.5,0.5,0.925]&quot;</span><span class="p">)</span>
+<span class="n">koordinatlar</span> <span class="o">=</span> <span class="n">koordinatlar</span><span class="o">.</span><span class="n">A</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">koordinatlar</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>[&#39;Te&#39; &#39;Te&#39; &#39;Te&#39; &#39;Te&#39; &#39;Te&#39; &#39;Te&#39; &#39;Te&#39; &#39;Te&#39; &#39;Te&#39; &#39;Te&#39; &#39;Te&#39; &#39;Te&#39; &#39;Nb&#39; &#39;Nb&#39;
+ &#39;Nb&#39; &#39;Nb&#39; &#39;Nb&#39; &#39;Nb&#39; &#39;Nb&#39; &#39;Nb&#39; &#39;Nb&#39; &#39;Nb&#39; &#39;Nb&#39; &#39;Nb&#39;]
+[[ 0.2222  0.0975 -0.0016]
+ [ 0.0906  0.2433  0.1683]
+ [ 0.2471  0.0855  0.3293]
+ [ 0.0979  0.2194  0.5   ]
+ [ 0.2433  0.0913  0.668 ]
+ [ 0.0864  0.245   0.833 ]
+ [ 0.7442  0.5849 -0.0016]
+ [ 0.5944  0.7346  0.1627]
+ [ 0.7199  0.5964  0.3307]
+ [ 0.584   0.7464  0.4999]
+ [ 0.7339  0.594   0.6623]
+ [ 0.5955  0.724   0.8326]
+ [ 0.      0.      0.0969]
+ [ 0.      0.      0.2517]
+ [ 0.      0.      0.4014]
+ [ 0.      0.      0.5929]
+ [ 0.      0.      0.7512]
+ [ 0.      0.      0.9067]
+ [ 0.5     0.5     0.0774]
+ [ 0.5     0.5     0.2376]
+ [ 0.5     0.5     0.4286]
+ [ 0.5     0.5     0.5778]
+ [ 0.5     0.5     0.735 ]
+ [ 0.5     0.5     0.925 ]]
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">

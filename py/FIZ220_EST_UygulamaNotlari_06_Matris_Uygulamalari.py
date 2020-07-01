@@ -90,7 +90,7 @@ print("x= ",x,"\ny= ",y)
 # 
 # Bu <strike>yaratık</strike> matris $(2\times2)$'lik bir matris olduğundan, üzerine etkiyeceği vektör ancak 2 boyutlu bir vektör olabilir (neden?). Şansa bakın ki, elimizde tam da iki boyutlu bir vektör var (noktamızın ta kendisi).
 # 
-# Noktamızı 90 derece çevirmek istersek, $\theta$ yerine 90 derece (ya da _doğru_ birimlerle $\pi$ radyan) yazarız, dönüş matrisimiz de şu hali alır:
+# Noktamızı 90 derece çevirmek istersek, $\theta$ yerine 90 derece (ya da _doğru_ birimlerle $\pi /2$ radyan) yazarız, dönüş matrisimiz de şu hali alır:
 # 
 # $$R_{\pi/2}=\begin{bmatrix}\cos{\frac{\pi}{2}}&-\sin{\frac{\pi}{2}}\\\sin{\frac{\pi}{2}}&\cos{\frac{\pi}{2}}\end{bmatrix}=\begin{bmatrix}0&-1\\1 & 0\end{bmatrix}$$
 # 
