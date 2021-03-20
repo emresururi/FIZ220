@@ -120,7 +120,7 @@ print(a[1:3,0:2])
 b = np.matrix("1 2, 3,9;4 5 6,9 ; 7 8 9 9")
 print(b)
 print("Matrisimizin 1. ve 3. satırlarının, 2. ve 4. sütunları")
-print(b[0:4:2,:4:2])
+print(b[0:4:2,1:4:2])
 
 
 # **Transpozesini (_devriğini_) almak:** 'T' metodu bu iş içindir:
@@ -333,7 +333,13 @@ print("Koku\n",b**(0.5),"\n------------")
 # 
 # Programlama dillerinde dizi kavramı çok geniş bir kavram. Baştan o kapıdan geçseydik, "dizi... dizi..." dedikçe kafanız karışacaktı (çünkü NumPy'da dizi dediğimiz şey pratikte matrisin ta kendisi). Kaldı ki -bir sonraki derste göreceğimiz üzere- dizi tanımında bizim Octave'dan alışageldiğimiz ve matrislerde kullandığımız satır/sütun - noktalı virgül/virgül tanımına izin verilmemekte. Bu nedenle yumuşak bir geçiş olsun istedim. 'A' metotu yardımıyla hiçbir kayıp vermeden elimizdeki matrisleri hop diye diziye çevirebildiğimiz için, bu dersi dizilere bir giriş olarak ele aldık.
 
-# ### -Çok düşük ihtimalle de olsa- aklınızda olabilecek bir başka soru:###
+# ### -Çok düşük ihtimalle de olsa- aklınızda olabilecek bir başka soru:
 # **Hocam, "nesne... nesne..." (_object... object... ;) deyip duruyorsunuz, ama sonra `type()` fonksiyonu ile cinsini sorduğumuzda bize "bir şey bir şey sınıfı (class)" diye yanıt geliyor. Nesne ile sınıf arasındaki fark nedir?**
 # 
 # (Öncelikle bu güzel soruyu sorduğunuz için teşekkür ederim... <kem küm...> 8) Sınıf dediğimiz şey, nesnenin ait olduğu yapıdır: nesne ise, bu yapıdan tanımladığımız bir elemandır, projeksiyon/anlık-gerçeklemedir (_instance_). Örneğin "araba" bir sınıftır: siz programınızda (hayatınızda) kullanmak üzere kendinize bu sınıftan bir eleman çektiğinizde (bir anlık-gerçekleme yaptığınızda) "Volkswagen", "Anadol", "Renault" gibi adı konulmuş bir nesne oluşturmuş olursunuz. Kafanız karıştıysa boşverin, teknik ve semantik bir ayrım var. Özetle: Sınıflar soyut (_abstract_) tanımlardır (üzerine binip bir yere gidemezsiniz), nesneler ise bu tanımlar doğrultusunda oluşturduğunuz, elle tutulur, üzerlerinde işlemler yapıp değerler atayabileceğiniz elemanlardır. Bu nedenle bir nesnenin cinsini sorduğumuzda cevap olarak onun sınıfı verilmektedir.
+
+# In[ ]:
+
+
+
+
