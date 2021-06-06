@@ -26,12 +26,13 @@ Uygulama#|Başlık
 
 
 Ödevler:
-* [1. Ödev: Numpy Dizileri I](FIZ220_EST_Odev_01_NumPy_Dizileri.html)
+* [1. Ödev: Numpy Dizileri I](FIZ220_EST_Odev_01_NumPy_Dizileri.html)([Çözümü](jupyter_notebook/FIZ220_EST_Odev_01_NumPy_Dizileri_Cozumler.ipynb))
 * [2. Ödev: Numpy Dizileri II](FIZ220_EST_Odev_02_NumPy_Dizileri.html) ([Çözümü](FIZ220_EST_Odev_02_NumPy_Dizileri_Cozumler.html))
 * [3. Ödev: Döngüler ve Kararlar](FIZ220_EST_Odev_03_Donguler_ve_Kararlar.html) ([Çözümü](FIZ220_EST_Odev_03_Donguler_ve_Kararlar_Cozumler.html))
 * [4. Ödev: Lineer Cebir](FIZ220_EST_Odev_04_LineerCebir.html) ([Çözümü](FIZ220_EST_Odev_04_LineerCebir_Cozumler.html))
 * [5. Ödev: Lineer Cebir Uygulamaları](FIZ220_EST_Odev_05_LineerCebirUygulamalari.html) ([Çözümü](FIZ220_EST_Odev_05_LineerCebirUygulamalari_Cozumler.html))
 * [6. Ödev: Fonksiyonlar, Türev ve İntegral / Çözümü](FIZ220_EST_Odev_06_FonksiyonTurevIntegral_Cozumler.html)
+* [3. Ödev (2021): Fonksiyonlar, Türev, İntegral ve Grafikler](FIZ220_EST_20202_Odev_03.html) ([Çözümü](FIZ220_EST_20202_Odev_03_Cozumler.html))
 
 
 Bazı kodlar: (Grafiksel işlerden ötürü Jupyter'da değil de / örneğin Spyder'da çalıştırmak üzere)
