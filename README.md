@@ -32,6 +32,7 @@ Uygulama#|Başlık
 * [4. Ödev: Lineer Cebir](FIZ220_EST_Odev_04_LineerCebir.html) ([Çözümü](FIZ220_EST_Odev_04_LineerCebir_Cozumler.html))
 * [5. Ödev: Lineer Cebir Uygulamaları](FIZ220_EST_Odev_05_LineerCebirUygulamalari.html) ([Çözümü](FIZ220_EST_Odev_05_LineerCebirUygulamalari_Cozumler.html))
 * [6. Ödev: Fonksiyonlar, Türev ve İntegral / Çözümü](FIZ220_EST_Odev_06_FonksiyonTurevIntegral_Cozumler.html)
+* [2. Ödev (2021): Matrisler, Operatörler](FIZ220_EST_20202_Odev_02.html) ([Çözümü](FIZ220_EST_20202_Odev_02_Cozumler.html))
 * [3. Ödev (2021): Fonksiyonlar, Türev, İntegral ve Grafikler](FIZ220_EST_20202_Odev_03.html) ([Çözümü](FIZ220_EST_20202_Odev_03_Cozumler.html))
 
 
