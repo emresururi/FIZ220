@@ -35,6 +35,8 @@ Uygulama#|Başlık
 * [2. Ödev (2021): Matrisler, Operatörler](FIZ220_EST_20202_Odev_02.html) ([Çözümü](FIZ220_EST_20202_Odev_02_Cozumler.html))
 * [3. Ödev (2021): Fonksiyonlar, Türev, İntegral ve Grafikler](FIZ220_EST_20202_Odev_03.html) ([Çözümü](FIZ220_EST_20202_Odev_03_Cozumler.html))
 
+Sınavlar:
+* [2020-2021 Final Sözlüsü Soruları](FIZ220_EST_20202_FinalSorulari_8_12_13062021.html)
 
 Bazı kodlar: (Grafiksel işlerden ötürü Jupyter'da değil de / örneğin Spyder'da çalıştırmak üzere)
 * Lineer Cebir Uygulaması: [Yaylara bağlı cisimler](kodlar/08_springsMasses.py)
